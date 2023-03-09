@@ -19,7 +19,7 @@ Follow these steps to create a new nodejs project with Typescript
 
 ## Mongodb
 
-Mongodb options you can use a local or a remote database:
+Mongodb options you can use a local or a remote database: (prefeer local, if you just want to see the project use remote)
 
 - Local
 - [Mongodb Atals](https://account.mongodb.com/account/login)
@@ -28,14 +28,14 @@ Mongodb options you can use a local or a remote database:
 
 ### User:
 
-- create user : localhost:3000/user/
-- get user : localhost:3000/user/userId
-- update user : localhost:3000/user/
+- create user : localhost:3000/user/ (crea un usuario)
+- get user : localhost:3000/user/userId (coge un único usuario para interactuar con él)
+- update user : localhost:3000/user/ ("PUT" para actualizar la información del usuario)
 
 ### Posts:
 
-- create post : localhost:3000/post/
-- get all post : localhost:3000/post/
-- get post : localhost:3000/post/postId
-- delete post : localhost:3000/post/postId
-- update post : localhost:3000/post/
+- create post : localhost:3000/post/ (crear posts al servidor de la página)
+- get all post : localhost:3000/post/ (coger TODOS los post de la DB)
+- get post : localhost:3000/post/postId (coger un único post para interactuar con él)
+- delete post : localhost:3000/post/postId (borrar un post)
+- update post : localhost:3000/post/ ( actualizar el post que queremos )

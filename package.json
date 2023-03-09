@@ -7,8 +7,7 @@
     "start": "tsc && nodemon  build/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "clay k",
-  "license": "MIT",
+  "author": "cristiiangb",
   "devDependencies": {
     "@types/express": "^4.17.9",
     "@types/http-errors": "^1.8.0",
